@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.file-manager {
+    /* max-width: 600px; */
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.file-label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: lightseagreen;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.file-label:hover {
+    background-color: rgb(30, 160, 153);
+}
+
+.hidden-input {
+    display: none;
+}
+
+.upload-btn {
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+.upload-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.upload-btn:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+.selected-file {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.file-name {
+    color: #555;
+}
+
+.file-list{
+    width:80%;
+    margin: 0 auto;
+}
+
+h3{
+    color:lightseagreen;
+}
+
+.files-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+
+}
+
+.table-headings th {
+    background-color: #f2f2f2;
+    color: rgb(135, 135, 135);
+
+}
+
+.files-table thead tr.table-headings th {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+
+.files-table thead tr.table-headings th:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-align: center;
+}
+
+.files-table thead tr.table-headings th:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+}
+
+
+.files-table tbody tr td {
+    padding: 12px 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.files-table tbody tr td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+.files-table tbody tr:hover{
+    background-color: #ebebeb;
+}
+
+.btn-actions {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn-actions button {
+    border: none;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width:70px;
+}
+
+.update-btn {
+    background-color: rgb(135, 135, 135);
+    color: #fff;
+}
+
+.update-btn:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+
+
+
+
