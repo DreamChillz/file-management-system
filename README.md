@@ -1,29 +1,14 @@
-# file-management-system
+# File Management System
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple file management system built with:
 
-## Recommended IDE Setup
+- **Frontend:** Vue.js 
+- **Backend:** Node.js with Express
+- **Database:** MySQL (using XAMPP)
+- **File Upload Handling:** Multer
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Upload files
+- List and view file metadata
+- Delete files
